@@ -1,0 +1,7 @@
+{
+  "name": "udtemple",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

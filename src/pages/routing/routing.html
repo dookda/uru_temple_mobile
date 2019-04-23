@@ -1,0 +1,37 @@
+<ion-header>
+
+  <ion-navbar color="primary" class='kanit-w'>
+    <ion-title>ค้นหาเส้นทาง</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="closeModal()">
+        <ion-icon name="close-circle"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  เลือกจุดเริ่มต้นและสิ้นสุด
+
+
+  <ion-item>
+    <ion-label>จาก</ion-label>
+    <ion-select [(ngModel)]="start" interface="action-sheet">
+      <ion-option *ngFor="let s of startList" [value]="s">{{s.wat}}</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>ไปยัง</ion-label>
+    <ion-select [(ngModel)]="end" interface="action-sheet">
+      <ion-option *ngFor="let e of endList" [value]="e">{{e.wat}}</ion-option>
+    </ion-select>
+  </ion-item>
+
+  <p></p>
+  <button ion-button outline (click)="calRoute()">ค้นหาเส้นทาง</button>
+
+
+</ion-content>
