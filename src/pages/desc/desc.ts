@@ -43,25 +43,25 @@ export class DescPage {
       this.tNamet = 'วัดพระฝางสวางคมุนี';
       imgCount = 104;
     } else if (e === 'อนุสาวรีย์พระยาพิชัยดาบหัก') {
-      this.tName = 'อนุสาวรีย์พระยาพิชัยดาบหัก';
+      this.tName = 'payapichai';
       this.tNamet = 'อนุสาวรีย์พระยาพิชัยดาบหัก';
-      imgCount = 0;
+      imgCount = 8;
     } else if (e === 'วัดท่าถนน') {
-      this.tName = 'วัดท่าถนน';
+      this.tName = 'thatanoon';
       this.tNamet = 'วัดท่าถนน';
-      imgCount = 0;
+      imgCount = 10;
     } else if (e === 'วัดพระยืน') {
-      this.tName = 'วัดพระยืน';
+      this.tName = 'payean';
       this.tNamet = 'วัดพระยืน';
-      imgCount = 0;
+      imgCount = 6;
     } else if (e === 'วัดพระแท่นศิลาอาสน์') {
       this.tName = 'pratansilaart';
       this.tNamet = 'วัดพระแท่นศิลาอาสน์';
       imgCount = 76;
     } else if (e === 'วัดพระบรมธาตุทุ่งยั้ง') {
-      this.tName = 'วัดพระบรมธาตุทุ่งยั้ง';
+      this.tName = 'tungyang';
       this.tNamet = 'วัดพระบรมธาตุทุ่งยั้ง';
-      imgCount = 0;
+      imgCount = 18;
     } else if (e === 'วัดบ้านแก่งใต้ พระอกแตก') {
       this.tName = 'kengtai';
       this.tNamet = 'วัดบ้านแก่งใต้ พระอกแตก';
@@ -71,17 +71,17 @@ export class DescPage {
       this.tNamet = 'วัดขวางชัยภูมิ';
       imgCount = 80;
     } else if (e === 'วัดมหาธาตุ') {
-      this.tName = 'วัดมหาธาตุ';
+      this.tName = 'mahathat';
       this.tNamet = 'วัดมหาธาตุ';
-      imgCount = 0;
+      imgCount = 5;
     } else if (e === 'วัดหน้าพระธาตุ') {
-      this.tName = 'วัดหน้าพระธาตุ';
+      this.tName = 'napahat';
       this.tNamet = 'วัดหน้าพระธาตุ';
-      imgCount = 0;
+      imgCount = 10;
     } else if (e === 'บ้านเกิดพระยาพิชัย อนุสรณ์สถาน') {
-      this.tName = 'บ้านเกิดพระยาพิชัย อนุสรณ์สถาน';
+      this.tName = 'payapichai_home';
       this.tNamet = 'บ้านเกิดพระยาพิชัย อนุสรณ์สถาน';
-      imgCount = 0;
+      imgCount = 10;
     } else if (e === 'วัดน้ำพี้') {
       this.tName = 'namphee';
       this.tNamet = 'วัดน้ำพี้';
